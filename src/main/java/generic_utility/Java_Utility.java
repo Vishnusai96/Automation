@@ -8,6 +8,6 @@ public class Java_Utility {
 		Random ran=new Random();
 		int r=ran.nextInt(100);
 		return r;
-		
+		System.out.print(" hi this is chang made by T1 from github ")
 	}
 }
