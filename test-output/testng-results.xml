@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TC1]]>
+    </line>
+    <line>
+      <![CDATA[TC2]]>
+    </line>
+    <line>
+      <![CDATA[TC3]]>
+    </line>
+    <line>
+      <![CDATA[TC4]]>
+    </line>
+    <line>
+      <![CDATA[TC5]]>
+    </line>
+    <line>
+      <![CDATA[TC6]]>
+    </line>
+    <line>
+      <![CDATA[TC7]]>
+    </line>
+    <line>
+      <![CDATA[TC8]]>
+    </line>
+    <line>
+      <![CDATA[TC9]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-16T00:10:45 IST" name="Suite" finished-at="2024-06-16T00:10:45 IST" duration-ms="386">
+    <groups>
+    </groups>
+    <test started-at="2024-06-16T00:10:45 IST" name="Test" finished-at="2024-06-16T00:10:45 IST" duration-ms="386">
+      <class name="testng_batch.Sample2">
+        <test-method signature="TC4()[pri:0, instance:testng_batch.Sample2@2d52216b]" started-at="2024-06-16T00:10:45 IST" name="TC4" finished-at="2024-06-16T00:10:45 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC4 -->
+        <test-method signature="TC5()[pri:0, instance:testng_batch.Sample2@2d52216b]" started-at="2024-06-16T00:10:45 IST" name="TC5" finished-at="2024-06-16T00:10:45 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC5 -->
+        <test-method signature="TC6()[pri:0, instance:testng_batch.Sample2@2d52216b]" started-at="2024-06-16T00:10:45 IST" name="TC6" finished-at="2024-06-16T00:10:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC6 -->
+      </class> <!-- testng_batch.Sample2 -->
+      <class name="testng_batch.Sample3">
+        <test-method signature="TC7()[pri:0, instance:testng_batch.Sample3@242b836]" started-at="2024-06-16T00:10:45 IST" name="TC7" finished-at="2024-06-16T00:10:45 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC7]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC7 -->
+        <test-method signature="TC8()[pri:0, instance:testng_batch.Sample3@242b836]" started-at="2024-06-16T00:10:45 IST" name="TC8" finished-at="2024-06-16T00:10:45 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC8]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC8 -->
+        <test-method signature="TC9()[pri:0, instance:testng_batch.Sample3@242b836]" started-at="2024-06-16T00:10:45 IST" name="TC9" finished-at="2024-06-16T00:10:45 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC9]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC9 -->
+      </class> <!-- testng_batch.Sample3 -->
+      <class name="testng_batch.Sample1">
+        <test-method signature="TC1()[pri:0, instance:testng_batch.Sample1@4b0d79fc]" started-at="2024-06-16T00:10:45 IST" name="TC1" finished-at="2024-06-16T00:10:45 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method signature="TC2()[pri:0, instance:testng_batch.Sample1@4b0d79fc]" started-at="2024-06-16T00:10:45 IST" name="TC2" finished-at="2024-06-16T00:10:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method signature="TC3()[pri:0, instance:testng_batch.Sample1@4b0d79fc]" started-at="2024-06-16T00:10:45 IST" name="TC3" finished-at="2024-06-16T00:10:45 IST" duration-ms="27" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testng_batch.Sample1.TC3(Sample1.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[TC3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+      </class> <!-- testng_batch.Sample1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
